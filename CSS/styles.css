@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 body {
   background-color: black;
   color: black;
@@ -99,4 +101,16 @@ body {
   .navbar-links.active {
     display: flex;
   }
+}
+
+h1 {
+  color: white;
+  font-family: Ubuntu;
+  padding: 5px;
+}
+
+p {
+  color: white;
+  font-family: Ubuntu;
+  padding: 5px;
 }
