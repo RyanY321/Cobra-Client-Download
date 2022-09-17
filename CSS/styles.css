@@ -100,27 +100,3 @@ body {
     display: flex;
   }
 }
-
-#button1 {
-  height: 50px;
-  width:  100px;
-  border-radius: 15%;
-  background-color: black;
-  color: red;
-  cursor: pointer;
-  font-weight: bold;
-  text-align: center;
-  border: 2px solid limegreen;
-}
-
-#button2 {
-  height: 50px;
-  width: 100px;
-  border-radius: 15%;
-  background-color: black;
-  color: red;
-  cursor: pointer;
-  font-weight: bold;
-  text-align: center;
-  border: 2px solid limegreen;
-}
