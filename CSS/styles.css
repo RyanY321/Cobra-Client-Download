@@ -104,13 +104,61 @@ body {
 }
 
 h1 {
-  color: white;
+  color: grey;
   font-family: Ubuntu;
+  text-align: left;
+  padding: 5px;
+}
+
+h2 {
+  color: grey;
+  font-family: Ubuntu;
+  text-align: left;
+  padding: 5px;
+}
+
+h3 {
+  color: grey;
+  font-family: Ubuntu;
+  text-align: left;
+  padding: 5px;
+}
+
+h4 {
+  color: grey;
+  font-family: Ubuntu;
+  text-align: left;
+  padding: 5px;
+}
+
+h5 {
+  color: grey;
+  font-family: Ubuntu;
+  text-align: left;
+  padding: 5px;
+}
+
+h6 {
+  color: grey;
+  font-family: Ubuntu;
+  text-align: left;
   padding: 5px;
 }
 
 p {
-  color: white;
+  color: grey;
   font-family: Ubuntu;
+  text-align: left;
   padding: 5px;
+}
+
+hr {
+  border: 6px solid white;
+  border-radius: 5px;
+}
+
+.list1 {
+  color: grey;
+  list-style: none;
+  font-size: large;
 }
