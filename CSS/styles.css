@@ -162,3 +162,13 @@ hr {
   list-style: none;
   font-size: large;
 }
+
+.installButton {
+  height: 50px;
+  width: 100px;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+}
