@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
-  background-color: black;
-  color: black;
+  background-color: grey;
+  color: grey;
 }
 
 body {
@@ -104,61 +104,61 @@ body {
 }
 
 h1 {
-  color: grey;
+  color: black;
   font-family: Ubuntu;
   text-align: left;
   padding: 5px;
 }
 
 h2 {
-  color: grey;
+  color: black;
   font-family: Ubuntu;
   text-align: left;
   padding: 5px;
 }
 
 h3 {
-  color: grey;
+  color: black;
   font-family: Ubuntu;
   text-align: left;
   padding: 5px;
 }
 
 h4 {
-  color: grey;
+  color: black;
   font-family: Ubuntu;
   text-align: left;
   padding: 5px;
 }
 
 h5 {
-  color: grey;
+  color: black;
   font-family: Ubuntu;
   text-align: left;
   padding: 5px;
 }
 
 h6 {
-  color: grey;
+  color: black;
   font-family: Ubuntu;
   text-align: left;
   padding: 5px;
 }
 
 p {
-  color: grey;
+  color: black;
   font-family: Ubuntu;
   text-align: left;
   padding: 5px;
 }
 
 hr {
-  border: 6px solid grey;
+  border: 6px solid black;
   border-radius: 5px;
 }
 
 .list1 {
-  color: grey;
+  color: black;
   list-style: none;
   font-size: large;
 }
@@ -175,7 +175,7 @@ hr {
 
 .TeamPfp {
   border-radius: 50%;
-  border: 5px solid red;
+  border: 8px solid red;
   display: block;
   margin-left: auto;
   margin-right: auto;
