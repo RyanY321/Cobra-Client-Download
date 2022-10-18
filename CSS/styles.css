@@ -195,3 +195,12 @@ hr {
 .team-page-h1 {
   text-align: center;
 }
+
+footer {
+  text-align: center;
+}
+
+#footer-text {
+  text-align: center;
+  font-size: 15px;
+}
