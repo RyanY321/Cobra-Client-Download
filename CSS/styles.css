@@ -10,11 +10,6 @@ body {
   padding: 0;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -198,6 +193,11 @@ hr {
 
 footer {
   text-align: center;
+  color: black;
+}
+
+#footer-0text {
+  color: black;
 }
 
 #footer-text {
