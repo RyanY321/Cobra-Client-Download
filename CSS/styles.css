@@ -158,6 +158,12 @@ hr {
   font-size: large;
 }
 
+.list2 {
+  color: black;
+  list-style: none;
+  font-size: large;
+}
+
 .installButton {
   height: 50px;
   width: 100px;
