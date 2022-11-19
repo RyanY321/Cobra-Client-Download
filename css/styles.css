@@ -152,18 +152,6 @@ hr {
   border-radius: 5px;
 }
 
-.list1 {
-  color: black;
-  list-style: none;
-  font-size: large;
-}
-
-.list2 {
-  color: black;
-  list-style: none;
-  font-size: large;
-}
-
 .installButton {
   height: 50px;
   width: 100px;
@@ -209,4 +197,24 @@ footer {
 #footer-text {
   text-align: center;
   font-size: 15px;
+}
+
+.News-Images {
+  border: 6px solid red;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.News-Article-Text {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  font-family: Ubuntu;
+}
+
+ul {
+  list-style: none;
+  color: black;
+  font-family: Ubuntu;
 }
