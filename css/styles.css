@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 body {
   background-color: grey;
@@ -221,4 +223,18 @@ ul {
 
 .Newsletter-V1 {
   font-size: 20px;
+}
+
+.signature {
+  font-family: 'Dancing Script', cursive;
+  padding: 5px;
+}
+
+.Newsletter-RPC {
+  font-size: 20px;
+}
+
+.News-Date {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
 }
