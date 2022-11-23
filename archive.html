@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error</title>
+        <link rel="icon" type="png/image" href="/favicon/Cobra.png">
+    </head> 
+
+    <body>
+        <h1>Error! You can only access the Cobra Client Archives with a proper Archive link from the developers.</h1>
+        <hr>
+        <p>We cannot find what you are looking for</p>
+
+        <p>You should be automatically redirected back to <a href="https://www.cobraclient.gq/">Cobra Client</a> in <span id="seconds">7</span> seconds. If not please <a href="https://www.cobraclient.gq/">Click Here</a>.</p>
+    </body>
+</html>
+
+<script>
+var seconds = 7; 
+var foo; 
+
+function redirect() {
+    document.location.href = 'https://www.cobraclient.gq/';
+}
+
+function updateSecs() {
+    document.getElementById("seconds").innerHTML = seconds;
+    seconds--;
+    if (seconds == -1) {
+        clearInterval(foo);
+        redirect();
+    }
+}
+
+function countdownTimer() {
+    foo = setInterval(function () {
+        updateSecs()
+    }, 1000);
+}
+
+countdownTimer();
+</script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+    h1 {
+        text-align: center;
+        font-family: Ubuntu;
+        color: grey;
+        font-weight: bold;
+    }
+
+    P {
+        text-align: center;
+        font-family: Ubuntu;
+        color: grey;
+        font-weight: bold;
+    }
+
+    body {
+        background-color: black;
+    }
+
+</style> 
