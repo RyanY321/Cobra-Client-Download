@@ -103,49 +103,49 @@ body {
 
 h1 {
   color: black;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   text-align: left;
   padding: 5px;
 }
 
 h2 {
   color: black;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   text-align: left;
   padding: 5px;
 }
 
 h3 {
   color: black;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   text-align: left;
   padding: 5px;
 }
 
 h4 {
   color: black;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   text-align: left;
   padding: 5px;
 }
 
 h5 {
   color: black;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   text-align: left;
   padding: 5px;
 }
 
 h6 {
   color: black;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   text-align: left;
   padding: 5px;
 }
 
 p {
   color: black;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   text-align: left;
   padding: 5px;
 }
@@ -180,7 +180,7 @@ hr {
 
 .header-pfp {
   font-size: 30px;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
   text-align: center;
 }
 
@@ -213,13 +213,13 @@ footer {
   text-align: center;
   font-size: 30px;
   color: red;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
 }
 
 ul {
   list-style: none;
   color: black;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;;
 }
 
 .Newsletter-V1 {
@@ -242,5 +242,4 @@ ul {
 
 .Newsletter-Title {
   text-align: center;
-  font-family: 'Secular One', sans-serif;
 }
