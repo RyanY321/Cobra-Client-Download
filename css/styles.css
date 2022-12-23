@@ -150,21 +150,6 @@ p {
   padding: 5px;
 }
 
-hr {
-  border: 6px solid black;
-  border-radius: 5px;
-}
-
-.installButton {
-  height: 50px;
-  width: 100px;
-  background-color: green;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 10px;
-}
-
 .TeamPfp {
   border-radius: 50%;
   border: 8px solid red;
@@ -188,20 +173,6 @@ hr {
   text-align: center;
 }
 
-footer {
-  text-align: center;
-  color: #192841;
-}
-
-#footer-0text {
-  color: #192841;
-}
-
-#footer-text {
-  text-align: center;
-  font-size: 15px;
-}
-
 .News-Images {
   border: 2px solid red;
   display: block;
@@ -222,19 +193,6 @@ ul {
   font-family: 'Ubuntu', sans-serif;;
 }
 
-.Newsletter-V1 {
-  font-size: 20px;
-}
-
-.signature {
-  font-family: 'Dancing Script', cursive;
-  padding: 5px;
-}
-
-.Newsletter-RPC {
-  font-size: 20px;
-}
-
 .News-Date {
   font-family: 'Merriweather', serif;
   font-size: 15px;
@@ -252,6 +210,41 @@ ul {
   width: 100%;
 }
 
-.Homepage-Update {
-  font-size: 20px;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+#header {
+  background: grey;
+  padding: 10px;
+}
+
+#body {
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: grey;
+}
+
+#container {
+  height: 100%
+}
+
+#footer_text {
+   text-align: center;
+   text-decoration: underline;
+   font-weight: bold;
 }

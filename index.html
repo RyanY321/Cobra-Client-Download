@@ -29,33 +29,78 @@
             </div>
         </nav>
         <img src="/images/Homepage/Banner_HP.png" alt="" width="1500" height="500" class="Banner_HP">
-        <div id="information-div">
-            <p id="information-text">test</p>
-        </div>
-        <footer>
-            <p id="footer-text">©Cobra Client 2022-2023 - All Rights Reserved</p>
-        </footer>
-        
+        <div id="container">
+            <div id="header"></div>
+            <div id="body">
+
+                <div class="information_box">
+                    <h1 class="information_header">About Cobra Client</h1>
+
+                    <p class="information_text">Features of Cobra Client</p>
+                    <ul>
+                        <li>custom RPC</li>
+                        <li>IP tools</li>
+                        <li>Tron anti-malware</li>
+                        <li>Logs</li>
+                        <li>Shutdown options</li>
+                        <li>Windows headless mode</li>
+                    </ul>
+
+                    <p class="Development_Text">Development Of Cobra Client</p>
+                    <ul>
+                        <li>The development of Cobra Client begins with the languages</li>
+                        <li>that Cobra Client is written in.</li>
+                        <ul>
+                            <li>The Programs of Cobra Client use HTML,</li>
+                            <li>JS, CSS, Batch, and C#</li>
+                        </ul>
+                        <li>The process for making Cobra Client was a very hard</li>
+                        <li>process in itself.</li>
+                        <li><a href="/about">Link to Story of Cobra Client</a></li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <p style="text-decoration: underline;text-align: center;font-weight: bold;"><a href="/gallery">View in gallery</a></p>
+                <div class="Gallery_box">
+                     <img style="display: block;margin-left: auto;margin-right: auto;width: 50%;" height="400px;" width="700px;" src="/images/Homepage/Gallery_Image.png" alt="Gallary Box">
+                </div>
+
+            </div>
+            <div id="footer">
+                <p id="footer_text">©Cobra Client 2022-2023 - All Rights Reserved</p>
+            </div>
+         </div>
         <script src="/js/script.js" async defer></script>
     </body>
 </html>
 
 <style>
-#information-div {
-  width: 100px;
-  height: 100px;
-  background: black;
-  margin: 0 auto;
-  transition: width 2s, height 4s;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-#information-div:hover {
-  width: 300px;
-  height: 300px;
-}
+    .information_box{
+        height: 500px;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #98968a;
+        border: 6px solid black;
+    }
 
-#information-text {
-    text-align: center;
-    color: red;
-}
+    .information_header {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .information_text { 
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .Development_Text {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
 </style>
