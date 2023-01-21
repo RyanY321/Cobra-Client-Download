@@ -38,25 +38,25 @@
 
                     <p class="information_text">Features of Cobra Client</p>
                     <ul>
-                        <li>custom RPC</li>
-                        <li>IP tools</li>
-                        <li>Tron anti-malware</li>
-                        <li>Logs</li>
-                        <li>Shutdown options</li>
-                        <li>Windows headless mode</li>
+                        <li id="information_text">custom RPC</li>
+                        <li id="information_text">IP tools</li>
+                        <li id="information_text">Tron anti-malware</li>
+                        <li id="information_text">Logs</li>
+                        <li id="information_text">Shutdown options</li>
+                        <li id="information_text">Windows headless mode</li>
                     </ul>
 
                     <p class="Development_Text">Development Of Cobra Client</p>
                     <ul>
-                        <li>The development of Cobra Client begins with the languages</li>
-                        <li>that Cobra Client is written in.</li>
+                        <li id="development_text">The development of Cobra Client begins with the languages</li>
+                        <li id="devleopment_text">that Cobra Client is written in.</li>
                         <ul>
-                            <li>The Programs of Cobra Client use HTML,</li>
-                            <li>JS, CSS, Batch, and C#</li>
+                            <li id="development_text">The Programs of Cobra Client use HTML,</li>
+                            <li id="devleopment_text">JS, CSS, Batch, and C#</li>
                         </ul>
-                        <li>The process for making Cobra Client was a very hard</li>
-                        <li>process in itself.</li>
-                        <li><a href="/about">Link to Story of Cobra Client</a></li>
+                        <li id="development_text">The process for making Cobra Client was a very hard</li>
+                        <li id="development_text">process in itself.</li>
+                        <li id="devleopment_text"><a href="/about">Link to Story of Cobra Client</a></li>
                     </ul>
                 </div>
 
@@ -70,7 +70,7 @@
                 <hr>
 
                 <h1 style="text-align: center;">Cobra Client Trailer Video</h1>
-                <video style="display: block;margin-left: auto;margin-right: auto;width: 50%;" controls>
+                <video style="display: block;margin-left: auto;margin-right: auto;width: 50%;" class="Trailer" controls>
                     <source src="/videos/Homepage/Trailer.mp4" type="video/mp4">
                 </video>
             </div>
@@ -86,28 +86,94 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+    h1 {
+        color: #192841;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        padding: 5px;
+    }
+
+    h2 {
+        color: #192841;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        padding: 5px;
+    }
+
+    h3 {
+        color: #192841;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        padding: 5px;
+    }
+
+    h4 {
+        color: #192841;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        padding: 5px;
+    }
+
+    h5 { 
+        color: #192841;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        padding: 5px;
+    }
+
+    h6 {
+        color: #192841;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        padding: 5px;
+    }
+
+    p {
+        color: #192841;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: left;
+        padding: 5px;
+    }
+
+    @media (max-width: 530px) {
     .information_box{
-        height: 500px;
-        width: 500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #98968a;
-        border: 6px solid black;
-    }
+      height: 415px;
+      width: 350px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #98968a;
+      border: 6px solid black;
+  }
 
-    .information_header {
-        text-align: center;
-        font-family: 'Ubuntu', sans-serif;
-    }
+.information_header {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
 
-    .information_text { 
-        text-align: center;
-        font-family: 'Ubuntu', sans-serif;
-    }
+.information_text { 
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
 
-    .Development_Text {
-        text-align: center;
-        font-family: 'Ubuntu', sans-serif;
-    }
+#information_text {
+  font-size: 12px;
+}
+
+.Development_Text {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15;
+}
+
+#devleopment_text {
+  font-size: 12px;
+}
+
+.Trailer {
+    height: 250px;
+}
+  }
 </style>

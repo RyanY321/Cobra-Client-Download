@@ -101,55 +101,6 @@ body {
   }
 }
 
-h1 {
-  color: #192841;
-  font-family: 'Ubuntu', sans-serif;;
-  text-align: left;
-  padding: 5px;
-}
-
-h2 {
-  color: #192841;
-  font-family: 'Ubuntu', sans-serif;;
-  text-align: left;
-  padding: 5px;
-}
-
-h3 {
-  color: #192841;
-  font-family: 'Ubuntu', sans-serif;;
-  text-align: left;
-  padding: 5px;
-}
-
-h4 {
-  color: #192841;
-  font-family: 'Ubuntu', sans-serif;;
-  text-align: left;
-  padding: 5px;
-}
-
-h5 {
-  color: #192841;
-  font-family: 'Ubuntu', sans-serif;;
-  text-align: left;
-  padding: 5px;
-}
-
-h6 {
-  color: #192841;
-  font-family: 'Ubuntu', sans-serif;;
-  text-align: left;
-  padding: 5px;
-}
-
-p {
-  color: #192841;
-  font-family: 'Ubuntu', sans-serif;;
-  text-align: left;
-  padding: 5px;
-}
-
 .TeamPfp {
   border-radius: 50%;
   border: 8px solid red;
@@ -248,3 +199,28 @@ body {
    text-decoration: underline;
    font-weight: bold;
 }
+
+.information_box{
+        height: 500px;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #98968a;
+        border: 6px solid black;
+    }
+
+  .information_header {
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+  }
+
+  .information_text { 
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+  }
+
+  .Development_Text {
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+  }
