@@ -221,3 +221,21 @@ body {
       text-align: center;
       font-family: 'Ubuntu', sans-serif;
   }
+
+.install-button {
+  height: 75px;
+  width: 175px;
+  background-color: green;
+  border: solid 5px black;
+  border-radius: 12px;
+}
+
+.install-button:hover {
+  background-color: lime;
+}
+
+.install-button:active {
+  background-color: lime;
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
