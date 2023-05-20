@@ -120,6 +120,20 @@ body {
   text-align: center;
 }
 
+.team-page-child{
+  display: inline-block;
+  border: 1px transparent;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.team-page-parent{
+  border: 2px transparent;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
 .team-page-h1 {
   text-align: center;
 }
