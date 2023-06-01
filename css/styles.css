@@ -286,3 +286,23 @@ color:#d4d4d4;
   box-shadow: 0 5px black;
   transform: translateY(4px);
 }
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.Scroll-Down-Box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;;
+  width: 240px;
+  background-color: transparent;
+}
