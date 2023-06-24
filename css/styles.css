@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
+html, body {
+  cursor: url('Cobra.cur'), default;
+}
+
 body {
   color: white;
   margin: 0;
@@ -238,6 +242,7 @@ color:#d4d4d4;
     border-radius: 16px;
     position:absolute;
     bottom:0;
+    cursor: pointer;
   }
 
   .information_header {
@@ -265,6 +270,7 @@ color:#d4d4d4;
 
 .install-button:hover {
   background-color: lime;
+  cursor: pointer;
 }
 
 .install-button:active {
