@@ -264,20 +264,25 @@ color:#d4d4d4;
 .install-button {
   height: 75px;
   width: 175px;
-  background-color: green;
+  background-color: rgba(136, 48, 114, 0.527);
   border: solid 5px black;
   border-radius: 12px;
 }
 
 .install-button:hover {
-  background-color: lime;
+  background-color: rgb(136, 48, 114);
   cursor: url('/CobraCursor.png'), auto;
 }
 
 .install-button:active {
-  background-color: lime;
+  background-color: rgb(136, 48, 114);
   box-shadow: 0 5px black;
   transform: translateY(4px);
+}
+
+.install-ctn {
+  display: flex;
+  justify-content: center;
 }
 
 .reveal{
@@ -299,3 +304,30 @@ color:#d4d4d4;
   width: 240px;
   background-color: transparent;
 }
+
+.PageMarkers {
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: 5px solid black;
+  background-color: rgba(136, 48, 114, 0.527);
+  color: white;
+  margin: 5px;
+}
+
+.PageMarkers:hover {
+  background-color: rgb(136, 48, 114);
+}
+
+.PageMarkers:active {
+  background-color: rgb(136, 48, 114);
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+.page-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  }
