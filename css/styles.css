@@ -285,6 +285,11 @@ color:#d4d4d4;
   justify-content: center;
 }
 
+.CobraOSInstallContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .reveal{
   position: relative;
   transform: translateY(150px);
