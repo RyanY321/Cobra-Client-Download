@@ -336,3 +336,109 @@ color:#d4d4d4;
   display: flex;
   justify-content: center;
   }
+
+
+
+
+
+  .CCRyanReview {
+    text-align: center;
+    height: 195px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(97, 4, 74, 0.616);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid black 5px;
+    border-radius: 20px;
+  }
+
+  .CCRyanReview p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .CCRyanReview img {
+    height: 30px;
+    width: auto;
+  }
+
+
+
+
+
+
+  .COSTigerReview {
+    text-align: center;
+    height: 180px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(97, 4, 74, 0.616);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid black 5px;
+    border-radius: 20px;
+  }
+
+  .COSTigerReview p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .COSTigerReview img {
+    height: 30px;
+    width: auto;
+  }
+
+  .COSRyanReview {
+    text-align: center;
+    height: 195px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(97, 4, 74, 0.616);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid black 5px;
+    border-radius: 20px;
+  }
+
+  .COSRyanReview p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .COSRyanReview img {
+    height: 30px;
+    width: auto;
+  }
+
+  .ReviewSubmit {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    height: 75px;
+    width: 150px;
+    border: solid black 5px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: url('/CobraCursor.png'), auto;
+    background-color: rgba(136, 48, 114, 0.527);
+  }
+
+  
+.ReviewSubmit:hover {
+  background-color: rgb(136, 48, 114);
+}
+
+.ReviewSubmit:active {
+  background-color: rgb(136, 48, 114);
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
