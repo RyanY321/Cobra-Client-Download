@@ -65,3 +65,8 @@ function reveal() {
   ("click", function(){
     document.querySelector(".popup").style.display = "none";
   });
+
+/*  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    window.location = "https://www.cobraclient.gq/mobile";
+ }
+ */
