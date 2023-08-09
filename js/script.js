@@ -14,7 +14,7 @@ var seconds = 7;
 var foo; 
 
 function redirect() {
-    document.location.href = 'https://www.cobraclient.gq/';
+    document.location.href = 'https://www.cobraclientnews.gq/';
 }
 
 function updateSecs() {
@@ -67,6 +67,6 @@ function reveal() {
   });
 
 /*  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    window.location = "https://www.cobraclient.gq/mobile";
+    window.location = "https://www.cobraclientnews.gq/mobile";
  }
  */
