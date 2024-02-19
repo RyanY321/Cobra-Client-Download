@@ -35,7 +35,12 @@
         </div>
     </nav>
     <div id="container">
-        <span style="text-align: center;font-size: 50px;" id="ap_welcome"></span>
+        <p style="text-align: center;font-size: 50px;" id="WelcomeMessage"></p>
+        <hr>
+        <span id="LastLogin"></span>
+        <span id="LoginAmount"></span>
+        <span id="UserEmail"></span>
+        <span id="DaysRegistered"></span>
     </div>
     <div id="footer">
         <p id="footer_text">©Cobra Client 2022-2023 - All Rights Reserved</p>
@@ -49,5 +54,9 @@
 </html>
 <script type="text/javascript" src="https://www.authpro.com/auth/CobraClient/?action=pp"></script>
 <script type="text/javascript">
-    document.getElementById("ap_welcome").innerHTML = "Welcome, " + login;
+    document.getElementById("WelcomeMessage").innerHTML = "Welcome, " + login;
+    document.getElementById("LastLogin").innerHTML = "Your Last Succesful login was: " + login_last;
+    document.getElementById("LoginAmount").innerHTML = "You've Logged Into This Account: " + login_count + " Times";
+    document.getElementById("UserEmail").innerHTML = "Your Registered Email Is: " + email;
+    document.getElementById("DaysRegistered").innerHTML = "You Registered Your Account " + reg_days + " Days Ago";
 </script>
